@@ -110,7 +110,7 @@ export const Banner20DataSource = {
         title: { className: 'banner2-title', children: 'Huỳnh Quốc Thảo' },
         content: {
           className: 'banner2-content',
-          children: '一个高效的页面动画解决方案',
+          children: 'FE Developer',
         },
         button: { className: 'banner2-button', children: 'Learn More' },
       },

@@ -8,5 +8,5 @@ RUN yarn build
 
 FROM nginx:1.21-alpine
 COPY --from=build-deps /usr/src/app/build /usr/share/nginx/html
-EXPOSE $PORT
+EXPOSE 9080
 CMD ["nginx", "-g", "daemon off;"]

@@ -107,7 +107,7 @@ export const Banner20DataSource = {
         page: { className: 'home-page banner2-page' },
         textWrapper: { className: 'banner2-text-wrapper' },
         bg: { className: 'bg bg0 kqk7r3jax1p-editor_css' },
-        title: { className: 'banner2-title', children: 'Ant Motion' },
+        title: { className: 'banner2-title', children: 'Huỳnh Quốc Thảo' },
         content: {
           className: 'banner2-content',
           children: '一个高效的页面动画解决方案',

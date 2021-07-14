@@ -110,9 +110,9 @@ export const Banner20DataSource = {
         title: { className: 'banner2-title', children: 'Huỳnh Quốc Thảo' },
         content: {
           className: 'banner2-content',
-          children: 'FE Architect at FTVLabs',
+          children: 'Lead FE Developer at FTVLabs',
         },
-        button: { className: 'banner2-button', children: 'Learn More' },
+        button: { className: 'banner2-button', children: 'About me' },
       },
     ],
   },

@@ -1,4 +1,4 @@
-import logo from './images/logo1.png';
+import logo from './images/logo.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -15,67 +15,67 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航一', name: 'text' }],
+          children: [{ children: 'ABOUT', name: 'text' }],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
+        // subItem: [
+        //   {
+        //     name: 'sub0',
+        //     className: 'item-sub',
+        //     children: {
+        //       className: 'item-sub-item',
+        //       children: [
+        //         {
+        //           name: 'image0',
+        //           className: 'item-image',
+        //           children:
+        //             'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+        //         },
+        //         {
+        //           name: 'title',
+        //           className: 'item-title',
+        //           children: 'Ant Design',
+        //         },
+        //         {
+        //           name: 'content',
+        //           className: 'item-content',
+        //           children: '企业级 UI 设计体系',
+        //         },
+        //       ],
+        //     },
+        //   },
+        //   {
+        //     name: 'sub1',
+        //     className: 'item-sub',
+        //     children: {
+        //       className: 'item-sub-item',
+        //       children: [
+        //         {
+        //           name: 'image0',
+        //           className: 'item-image',
+        //           children:
+        //             'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
+        //         },
+        //         {
+        //           name: 'title',
+        //           className: 'item-title',
+        //           children: 'Ant Design',
+        //         },
+        //         {
+        //           name: 'content',
+        //           className: 'item-content',
+        //           children: '企业级 UI 设计体系',
+        //         },
+        //       ],
+        //     },
+        //   },
+        // ],
       },
       {
         name: 'item1',
         className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航二', name: 'text' }],
+          children: [{ children: 'BLOG', name: 'text' }],
         },
       },
       {
@@ -83,17 +83,9 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: '导航三', name: 'text' }],
+          children: [{ children: 'CONTACT', name: 'text' }],
         },
-      },
-      {
-        name: 'item3',
-        className: 'header3-item',
-        children: {
-          href: '#',
-          children: [{ children: '导航四', name: 'text' }],
-        },
-      },
+      }
     ],
   },
   mobileMenu: { className: 'header3-mobile-menu' },
@@ -113,7 +105,12 @@ export const Banner20DataSource = {
           className: 'banner2-content',
           children: 'Lead FE Developer at FTVLabs',
         },
-        button: { className: 'banner2-button', children: 'About me' },
+        button: {
+          className: 'banner2-button',
+          children: 'Download My CV',
+          type: 'primary',
+          onClick: () => window.open(`${window.location.origin}${`${process.env.PUBLIC_URL}/myCV.pdf`}`, '_blank'),
+        },
       },
     ],
   },

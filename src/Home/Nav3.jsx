@@ -121,7 +121,7 @@ class Header3 extends React.Component {
           >
             <Menu
               mode={isMobile ? 'inline' : 'horizontal'}
-              defaultSelectedKeys={['sub0']}
+              defaultSelectedKeys={['item0']}
               theme="light"
             >
               {navChildren}

@@ -7,7 +7,7 @@
     overflow: initial;
   }
   .@{content9} {
-    min-height: 800px;
+    min-height: 1100px;
     padding: 64px 0 0;
   }
   .timeline {
@@ -28,8 +28,7 @@
     color: @text-color;
     display: flex;
     position: relative;
-    margin-bottom: 70px;
-    min-height: 160px;
+    margin-bottom: 48px;
     &:last-child {
       margin-bottom: 0;
     }
@@ -48,9 +47,10 @@
       margin: auto;
     }
     .block-img {
-      height: 98px;
       img {
-        height: 100%;
+        height: auto;
+        max-width: 120px;
+        max-height: 80px;
       }
     }
     .name-wrapper {

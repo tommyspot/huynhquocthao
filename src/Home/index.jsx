@@ -76,30 +76,30 @@ export default class Home extends React.Component {
         dataSource={Content90DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content8
-        id="Content8_0"
-        key="Content8_0"
-        dataSource={Content80DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content10
-        id="Content10_0"
-        key="Content10_0"
-        dataSource={Content100DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content11
-        id="Content11_0"
-        key="Content11_0"
-        dataSource={Content110DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content12
-        id="Content12_0"
-        key="Content12_0"
-        dataSource={Content120DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Content8
+      //   id="Content8_0"
+      //   key="Content8_0"
+      //   dataSource={Content80DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      // <Content10
+      //   id="Content10_0"
+      //   key="Content10_0"
+      //   dataSource={Content100DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      // <Content11
+      //   id="Content11_0"
+      //   key="Content11_0"
+      //   dataSource={Content110DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      // <Content12
+      //   id="Content12_0"
+      //   key="Content12_0"
+      //   dataSource={Content120DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Footer2
         id="Footer2_0"
         key="Footer2_0"

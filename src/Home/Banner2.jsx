@@ -20,6 +20,7 @@ class Banner extends React.PureComponent {
       delete elem.className;
       const bg = item.bg;
       const textWrapper = item.textWrapper;
+      const subTitle = item.subTitle;
       const title = item.title;
       const content = item.content;
       const button = item.button;
@@ -54,6 +55,9 @@ class Banner extends React.PureComponent {
               {...textWrapper}
               id={`wrapperBlock${i}`}
             >
+              <div key="subTitle" {...subTitle}>
+                {subTitle?.children}
+              </div>
               <div key="logo" {...title}>
                 {typeof title.children === 'string' &&
                 title.children.match(isImg) ? (

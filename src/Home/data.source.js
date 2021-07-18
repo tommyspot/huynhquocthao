@@ -1,15 +1,20 @@
-import logo from './images/logo.png';
-import FTVLabsLogo from './images/FTVLabs_logo.png';
-import KMSLogo from './images/KMS_logo.png';
-import EpinionLogo from './images/EPINION_logo.png';
-import HVNLogo from './images/HVN_logo.png';
-import CSCLogo from './images/CSC_logo.jpeg';
+import logo from './images/logo/logo.png';
+import FTVLabsLogo from './images/logo/FTVLabs_logo.png';
+import KMSLogo from './images/logo/KMS_logo.png';
+import EpinionLogo from './images/logo/EPINION_logo.png';
+import HVNLogo from './images/logo/HVN_logo.png';
+import CSCLogo from './images/logo/CSC_logo.jpeg';
+import sectionSVG from './images/svg/section.svg';
 import triangleSVG from './images/svg/triangle.svg';
 import squareSVG from './images/svg/square.svg';
 import circleSVG from './images/svg/circle.svg';
 import bloggerIcon from './images/icon/blogger.png';
 import linkedIcon from './images/icon/linkedin.png';
 import facebookIcon from './images/icon/facebook.png';
+import KegmilLogo from './images/logo/Kegmil.png';
+import HotscheduleLogo from './images/logo/Hotschedule.png';
+import InciteLogo from './images/logo/incite.jpeg';
+import EasycruiteLogo from './images/logo/Easycruite.png';
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -26,7 +31,7 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: '#',
-          children: [{ children: 'ABOUT', name: 'text' }],
+          children: [{ children: 'ABOUT ME', name: 'text' }],
         },
         // subItem: [
         //   {
@@ -140,13 +145,12 @@ export const Content90DataSource = {
   titleWrapper: {
     className: 'title-wrapper',
     children: [
-      // {
-      //   name: 'image',
-      //   children:
-      //     'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-      //   className: 'title-image',
-      // },
-      { name: 'title', children: 'Work Experience', className: 'title-h1' },
+      {
+        name: 'image',
+        children: <img src={sectionSVG} alt="img" />,
+        className: 'title-image',
+      },
+      { name: 'title', children: 'Journey', className: 'title-h1' },
     ],
   },
   block: {
@@ -171,7 +175,22 @@ export const Content90DataSource = {
           post: { className: 'block-post', children: 'Singapore' },
           time: { className: 'block-time', children: 'May 2018 - Present' },
           title: { className: 'block-title', children: 'Lead FE Developer' },
-          content: { className: 'block-content', children: '' },
+          content: {
+            className: 'block-content',
+            children: (
+              <>
+                <div>
+                  <a href="https://app.kegmil.com/" target="_blank">
+                    <img src={KegmilLogo} alt="kegmil" style={{ height: 16, marginBottom: 8 }} />
+                  </a>
+                </div>
+                <ul>
+                  <li>Field Service Management.</li>
+                  <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Ant Pro.</i></li>
+                </ul>
+              </>
+            ),
+          },
         },
       },
       {
@@ -195,8 +214,19 @@ export const Content90DataSource = {
           title: { className: 'block-title', children: 'Senior Developer' },
           content: {
             className: 'block-content',
-            children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+            children: (
+              <>
+                <div>
+                  <a href="https://www.hotschedules.com/hs/login.jsp" target="_blank">
+                    <img src={HotscheduleLogo} alt="hotschedule" style={{ height: 24, marginBottom: 8 }} />
+                  </a>
+                </div>
+                <ul>
+                  <li>Scheduling, Labor Management.</li>
+                  <li><i>ReactJS (15), Redux, Redux Observable, Echo UI.</i></li>
+                </ul>
+              </>
+            ),
           },
         },
       },
@@ -221,8 +251,19 @@ export const Content90DataSource = {
           title: { className: 'block-title', children: 'Senior FE Developer' },
           content: {
             className: 'block-content',
-            children:
-              '经过近 3 年的打磨，在助力中台产品研发效能提升的目标之上，包含设计语言、UI 资产、可视化以及产品体验相关的蚂蚁中台设计体系正在逐步成型。此次分享包含两部分，在介绍蚂蚁设计体系的同时，也会和大家分享我们在设计语言的部分探索。',
+            children: (
+              <>
+                <div>
+                  <a href="https://app.incite.pro/" target="_blank">
+                    <img src={InciteLogo} alt="incite" style={{ height: 16, marginBottom: 8 }} />
+                  </a>
+                </div>
+                <ul>
+                  <li>Epinion’s Online Insights Platform.</li>
+                  <li><i>AngularJS, Typescript, TDD, Bootstrap 3, ASP.Net, SQL Server.</i></li>
+                </ul>
+              </>
+            ),
           },
         },
       },
@@ -247,7 +288,17 @@ export const Content90DataSource = {
           title: { className: 'block-title', children: 'Software Developer' },
           content: {
             className: 'block-content',
-            children: '',
+            children: (
+              <>
+                <div>
+                  <img src={EasycruiteLogo} alt="easycruite" style={{ height: 32, marginBottom: 8 }} />
+                </div>
+                <ul>
+                  <li>CV Management.</li>
+                  <li><i>Perl, Mason, jQuery.</i></li>
+                </ul>
+              </>
+            ),
           },
         },
       },
@@ -272,7 +323,15 @@ export const Content90DataSource = {
           title: { className: 'block-title', children: 'Associate Software Developer' },
           content: {
             className: 'block-content',
-            children: '',
+            children: (
+              <>
+                <div><b>iPos Malaysia</b></div>
+                <ul>
+                  <li>Insurance Management.</li>
+                  <li><i>AngularJS, Java, Bootstrap.</i></li>
+                </ul>
+              </>
+            ),
           },
         },
       },
@@ -642,6 +701,11 @@ export const Footer20DataSource = {
         name: 'blogger',
         href: 'https://huynhquocthao.blogspot.com/',
         children: bloggerIcon,
+      },
+      {
+        name: 'facebook',
+        href: 'https://www.facebook.com/tommy.huynh.94695/',
+        children: facebookIcon,
       },
     ],
   },

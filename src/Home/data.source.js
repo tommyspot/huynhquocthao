@@ -181,7 +181,7 @@ export const Content90DataSource = {
               <>
                 <div>
                   <a href="https://app.kegmil.com/" target="_blank">
-                    <img src={KegmilLogo} alt="kegmil" style={{ height: 16, marginBottom: 8 }} />
+                    <img src={KegmilLogo} alt="kegmil" style={{ height: 16 }} />
                   </a>
                 </div>
                 <ul>
@@ -218,7 +218,7 @@ export const Content90DataSource = {
               <>
                 <div>
                   <a href="https://www.hotschedules.com/hs/login.jsp" target="_blank">
-                    <img src={HotscheduleLogo} alt="hotschedule" style={{ height: 24, marginBottom: 8 }} />
+                    <img src={HotscheduleLogo} alt="hotschedule" style={{ height: 24 }} />
                   </a>
                 </div>
                 <ul>
@@ -255,7 +255,7 @@ export const Content90DataSource = {
               <>
                 <div>
                   <a href="https://app.incite.pro/" target="_blank">
-                    <img src={InciteLogo} alt="incite" style={{ height: 16, marginBottom: 8 }} />
+                    <img src={InciteLogo} alt="incite" style={{ height: 16 }} />
                   </a>
                 </div>
                 <ul>
@@ -291,7 +291,7 @@ export const Content90DataSource = {
             children: (
               <>
                 <div>
-                  <img src={EasycruiteLogo} alt="easycruite" style={{ height: 32, marginBottom: 8 }} />
+                  <img src={EasycruiteLogo} alt="easycruite" style={{ height: 32 }} />
                 </div>
                 <ul>
                   <li>CV Management.</li>
@@ -325,7 +325,7 @@ export const Content90DataSource = {
             className: 'block-content',
             children: (
               <>
-                <div><b>iPos Malaysia</b></div>
+                <div style={{ marginBottom: 16 }}><b>iPos Malaysia</b></div>
                 <ul>
                   <li>Insurance Management.</li>
                   <li><i>AngularJS, Java, Bootstrap.</i></li>

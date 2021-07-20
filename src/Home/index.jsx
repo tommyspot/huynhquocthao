@@ -58,12 +58,12 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav3
-        id="Nav3_0"
-        key="Nav3_0"
-        dataSource={Nav30DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Nav3
+      //   id="Nav3_0"
+      //   key="Nav3_0"
+      //   dataSource={Nav30DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
       <Banner2
         id="Banner2_0"
         key="Banner2_0"
@@ -100,24 +100,25 @@ export default class Home extends React.Component {
       //   dataSource={Content120DataSource}
       //   isMobile={this.state.isMobile}
       // />,
-      <Footer2
-        id="Footer2_0"
-        key="Footer2_0"
-        dataSource={Footer20DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Footer2
+      //   id="Footer2_0"
+      //   key="Footer2_0"
+      //   dataSource={Footer20DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
     ];
-    return (
-      <div
-        className="templates-wrapper"
-        ref={(d) => {
-          this.dom = d;
-        }}
-      >
-        {/* 如果不是 dva 2.0 替换成 {children} start */}
-        {this.state.show && children}
-        {/* 如果不是 dva 2.0 替换成 {children} end */}
-      </div>
-    );
+    // return (
+    //   <div
+    //     className="templates-wrapper"
+    //     ref={(d) => {
+    //       this.dom = d;
+    //     }}
+    //   >
+    //     {/* 如果不是 dva 2.0 替换成 {children} start */}
+    //     {this.state.show && children}
+    //     {/* 如果不是 dva 2.0 替换成 {children} end */}
+    //   </div>
+    // );
+    return children;
   }
 }

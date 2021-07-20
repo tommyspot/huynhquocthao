@@ -1,6 +1,7 @@
 import React from 'react';
 import TweenOne from 'rc-tween-one';
 import { Menu } from 'antd';
+import { Link } from 'react-router-dom';
 import { getChildrenToRender } from './utils';
 
 const { Item, SubMenu } = Menu;
@@ -63,9 +64,9 @@ class Header3 extends React.Component {
       }
       return (
         <Item key={item.name} {...itemProps}>
-          <a {...a} className={`header3-item-block ${a.className}`.trim()}>
+          <Link {...a} className={`header3-item-block ${a.className}`.trim()}>
             {a.children.map(getChildrenToRender)}
-          </a>
+          </Link>
         </Item>
       );
     });

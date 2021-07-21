@@ -1,4 +1,4 @@
-const { override, fixBabelImports, addLessLoader } = require('customize-cra');
+const { override, fixBabelImports, addLessLoader, addBabelPlugin } = require('customize-cra');
 
 module.exports = override(
   // Load antd
@@ -15,4 +15,12 @@ module.exports = override(
       modifyVars: { '@primary-color': '#1DA57A' },
     }
   }),
+  addBabelPlugin([
+    'babel-plugin-root-import',
+    {
+      rootPathSuffix: 'src',
+      rootPathPrefix: '~',
+    },
+  ])
 );
+

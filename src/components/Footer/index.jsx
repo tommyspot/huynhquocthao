@@ -1,12 +1,12 @@
 import React from 'react';
 import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { isImg } from './utils';
+import { isImg } from '../_utils';
+import dataSource from './data';
 
 class Footer2 extends React.PureComponent {
   render() {
     const { ...props } = this.props;
-    const { dataSource } = props;
     delete props.dataSource;
     delete props.isMobile;
     return (

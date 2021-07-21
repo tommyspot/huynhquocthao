@@ -1,111 +1,17 @@
-import logo from './images/logo/logo.png';
-import FTVLabsLogo from './images/logo/FTVLabs_logo.png';
-import KMSLogo from './images/logo/KMS_logo.png';
-import EpinionLogo from './images/logo/EPINION_logo.png';
-import HVNLogo from './images/logo/HVN_logo.png';
-import CSCLogo from './images/logo/CSC_logo.jpeg';
-import sectionSVG from './images/svg/section.svg';
-import triangleSVG from './images/svg/triangle.svg';
-import squareSVG from './images/svg/square.svg';
-import circleSVG from './images/svg/circle.svg';
-import bloggerIcon from './images/icon/blogger.png';
-import linkedIcon from './images/icon/linkedin.png';
-import facebookIcon from './images/icon/facebook.png';
-import KegmilLogo from './images/logo/Kegmil.png';
-import HotscheduleLogo from './images/logo/Hotschedule.png';
-import InciteLogo from './images/logo/incite.jpeg';
-import EasycruiteLogo from './images/logo/Easycruite.png';
+import FTVLabsLogo from '~/assets/images/logo/FTVLabs.png';
+import KMSLogo from '~/assets/images/logo/KMS.png';
+import EpinionLogo from '~/assets/images/logo/EPINION.png';
+import HVNLogo from '~/assets/images/logo/HVN.png';
+import CSCLogo from '~/assets/images/logo/CSC.jpeg';
+import sectionSVG from '~/assets/images/svg/section.svg';
+import triangleSVG from '~/assets/images/svg/triangle.svg';
+import squareSVG from '~/assets/images/svg/square.svg';
+import circleSVG from '~/assets/images/svg/circle.svg';
+import KegmilLogo from '~/assets/images/logo/Kegmil.png';
+import HotscheduleLogo from '~/assets/images/logo/Hotschedule.png';
+import InciteLogo from '~/assets/images/logo/incite.jpeg';
+import EasycruiteLogo from '~/assets/images/logo/Easycruite.png';
 
-export const Nav30DataSource = {
-  wrapper: { className: 'header3 home-page-wrapper' },
-  page: { className: 'home-page' },
-  logo: {
-    className: 'header3-logo',
-    children: logo,
-  },
-  Menu: {
-    className: 'header3-menu',
-    children: [
-      {
-        name: 'item0',
-        className: 'header3-item',
-        children: {
-          to: '/',
-          children: [{ children: 'ABOUT ME', name: 'text' }],
-        },
-        // subItem: [
-        //   {
-        //     name: 'sub0',
-        //     className: 'item-sub',
-        //     children: {
-        //       className: 'item-sub-item',
-        //       children: [
-        //         {
-        //           name: 'image0',
-        //           className: 'item-image',
-        //           children:
-        //             'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-        //         },
-        //         {
-        //           name: 'title',
-        //           className: 'item-title',
-        //           children: 'Ant Design',
-        //         },
-        //         {
-        //           name: 'content',
-        //           className: 'item-content',
-        //           children: '企业级 UI 设计体系',
-        //         },
-        //       ],
-        //     },
-        //   },
-        //   {
-        //     name: 'sub1',
-        //     className: 'item-sub',
-        //     children: {
-        //       className: 'item-sub-item',
-        //       children: [
-        //         {
-        //           name: 'image0',
-        //           className: 'item-image',
-        //           children:
-        //             'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-        //         },
-        //         {
-        //           name: 'title',
-        //           className: 'item-title',
-        //           children: 'Ant Design',
-        //         },
-        //         {
-        //           name: 'content',
-        //           className: 'item-content',
-        //           children: '企业级 UI 设计体系',
-        //         },
-        //       ],
-        //     },
-        //   },
-        // ],
-      },
-      {
-        name: 'item1',
-        className: 'header3-item',
-        children: {
-          to: '/blog',
-          children: [{ children: 'BLOG', name: 'text' }],
-        },
-      },
-      {
-        name: 'item2',
-        className: 'header3-item',
-        children: {
-          to: '/contact',
-          children: [{ children: 'CONTACT', name: 'text' }],
-        },
-      }
-    ],
-  },
-  mobileMenu: { className: 'header3-mobile-menu' },
-};
 export const Banner20DataSource = {
   wrapper: { className: 'banner2' },
   BannerAnim: {
@@ -180,7 +86,7 @@ export const Content90DataSource = {
             children: (
               <>
                 <div>
-                  <a href="https://app.kegmil.com/" target="_blank">
+                  <a href="https://app.kegmil.com/" target="_blank" rel="noreferrer">
                     <img src={KegmilLogo} alt="kegmil" style={{ height: 16 }} />
                   </a>
                 </div>
@@ -217,7 +123,7 @@ export const Content90DataSource = {
             children: (
               <>
                 <div>
-                  <a href="https://www.hotschedules.com/hs/login.jsp" target="_blank">
+                  <a href="https://www.hotschedules.com/hs/login.jsp" target="_blank" rel="noreferrer">
                     <img src={HotscheduleLogo} alt="hotschedule" style={{ height: 24 }} />
                   </a>
                 </div>
@@ -254,7 +160,7 @@ export const Content90DataSource = {
             children: (
               <>
                 <div>
-                  <a href="https://app.incite.pro/" target="_blank">
+                  <a href="https://app.incite.pro/" target="_blank" rel="noreferrer">
                     <img src={InciteLogo} alt="incite" style={{ height: 16 }} />
                   </a>
                 </div>
@@ -667,45 +573,6 @@ export const Content120DataSource = {
               'https://gw.alipayobjects.com/zos/rmsportal/ftBIiyJcCHpHEioRvPsV.svg',
           },
         },
-      },
-    ],
-  },
-};
-export const Footer20DataSource = {
-  wrapper: { className: 'home-page-wrapper footer2-wrapper' },
-  OverPack: { className: 'home-page footer2', playScale: 0.05 },
-  copyright: {
-    className: 'copyright',
-    children: [
-      {
-        name: 'image',
-        children: 'https://gw.alipayobjects.com/zos/rmsportal/NuuAwJBxewWglRSoNjET.png',
-        className: 'copyright-logo',
-      },
-      {
-        name: 'copyright',
-        children: 'Copyright © 2021 tommyspot',
-        className: 'copyright-text',
-      },
-    ],
-  },
-  links: {
-    className: 'links',
-    children: [
-      {
-        name: 'linkedin',
-        href: 'https://www.linkedin.com/in/th%E1%BA%A3o-hu%E1%BB%B3nh-qu%E1%BB%91c-33a9aab3/',
-        children: linkedIcon,
-      },
-      {
-        name: 'blogger',
-        href: 'https://huynhquocthao.blogspot.com/',
-        children: bloggerIcon,
-      },
-      {
-        name: 'facebook',
-        href: 'https://www.facebook.com/tommy.huynh.94695/',
-        children: facebookIcon,
       },
     ],
   },

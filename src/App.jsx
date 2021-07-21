@@ -5,13 +5,12 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import Home from './Home';
-import Blog from './Blog';
-import Contact from './Contact';
-import Nav3 from './Home/Nav3';
-import Footer2 from './Home/Footer2';
-import { Nav30DataSource, Footer20DataSource } from './Home/data.source';
-import './App.css';
+import NavBar from '~/components/NavBar';
+import Footer from '~/components/Footer';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
+import './global.less';
 
 let isMobileScreen;
 enquireScreen((b) => {
@@ -44,15 +43,14 @@ function App() {
     <Router>
       {show && (
         <>
-          <Nav3
+          <NavBar
             id="Nav3_0"
             key="Nav3_0"
-            dataSource={Nav30DataSource}
             isMobile={isMobile}
           />
           <Switch>
             <Route path="/" exact>
-              <Home />
+              <Home isMobile={isMobile} />
             </Route>
             <Route path="/blog" exact>
               <Blog />
@@ -61,10 +59,9 @@ function App() {
               <Contact />
             </Route>
           </Switch>
-          <Footer2
+          <Footer
             id="Footer2_0"
             key="Footer2_0"
-            dataSource={Footer20DataSource}
             isMobile={isMobile}
           />
         </>

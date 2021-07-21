@@ -2,7 +2,8 @@ import React from 'react';
 import TweenOne from 'rc-tween-one';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
-import { getChildrenToRender } from './utils';
+import { getChildrenToRender } from  '../_utils';
+import dataSource from './data';
 
 const { Item, SubMenu } = Menu;
 
@@ -22,7 +23,7 @@ class Header3 extends React.Component {
   };
 
   render() {
-    const { dataSource, isMobile, ...props } = this.props;
+    const { isMobile, ...props } = this.props;
     const { phoneOpen } = this.state;
     const navData = dataSource.Menu.children;
     const navChildren = navData.map((item) => {

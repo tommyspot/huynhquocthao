@@ -1,8 +1,12 @@
 import React from 'react';
+import './styles.less';
 
 const Blog = () => {
   return (
-    <div style={{ height: '100vh' }}>Blog</div>
+    <iframe
+      src="https://huynhquocthao.blogspot.com/"
+      title="Blog"
+    />
   );
 };
 

@@ -2,7 +2,7 @@
 FROM node:16.4.2 as build-deps
 WORKDIR /usr/src/app
 COPY package.json yarn.lock .yarnclean ./
-RUN yarn install --production
+RUN yarn
 COPY . ./
 RUN yarn build
 

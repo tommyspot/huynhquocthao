@@ -6,10 +6,12 @@ const Section = (props: any) => {
   const { title, content, icon, className } = props;
   return (
     <Row gutter={16} className={className}>
-      {/* <Col span={4}>
-        <div>{icon}</div>
-      </Col> */}
-      <Col span={24}>
+      <Col>
+        <div className={styles.image}>
+          <img src={icon} alt="title" />
+        </div>
+      </Col>
+      <Col>
         <h3 className={styles.title}>{title}</h3>
         <div>{content}</div>
       </Col>

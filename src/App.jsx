@@ -10,6 +10,7 @@ import Footer from '~/components/Footer';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Failure from './pages/Failure';
 import './global.less';
 
 let isMobileScreen;
@@ -24,19 +25,14 @@ function App() {
   const [ show, setShow ] = useState(!location.port);
 
   useEffect(() => {
-    // 适配手机屏幕;
     enquireScreen((b) => {
       setIsMobile(!!b);
     });
-    // dva 2.0 样式在组件渲染之后动态加载，导致滚动组件不生效；线上不影响；
-    /* 如果不是 dva 2.0 请删除 start */
     if (location.port) {
-      // 样式 build 时间在 200-300ms 之间;
       setTimeout(() => {
         setShow(true);
       }, 500);
     }
-    /* 如果不是 dva 2.0 请删除 end */
   }, []);
 
   return (
@@ -57,6 +53,9 @@ function App() {
             </Route>
             <Route path="/contact" exact>
               <Contact />
+            </Route>
+            <Route path="/failure" exact>
+              <Failure />
             </Route>
           </Switch>
           <Footer

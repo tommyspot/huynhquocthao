@@ -22,9 +22,24 @@ class Header3 extends React.Component {
     });
   };
 
+  getActiveMenu = () => {
+    const { pathname } = window.location;
+    switch(pathname) {
+      case '/blog':
+        return 'item1';
+      case '/contact':
+        return 'item2';
+      case '/failure':
+        return 'item3';
+      default:
+        return 'item0';
+    }
+  };
+
   render() {
     const { isMobile, ...props } = this.props;
     const { phoneOpen } = this.state;
+    const activeMenu = this.getActiveMenu();
     const navData = dataSource.Menu.children;
     const navChildren = navData.map((item) => {
       const { children: a, subItem, ...itemProps } = item;
@@ -123,7 +138,7 @@ class Header3 extends React.Component {
           >
             <Menu
               mode={isMobile ? 'inline' : 'horizontal'}
-              defaultSelectedKeys={['item0']}
+              defaultSelectedKeys={[activeMenu]}
               theme="light"
             >
               {navChildren}

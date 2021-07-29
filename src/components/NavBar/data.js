@@ -33,6 +33,14 @@ const Data = {
           to: '/contact',
           children: [{ children: 'CONTACT', name: 'text' }],
         },
+      },
+      {
+        name: 'item3',
+        className: 'header3-item',
+        children: {
+          to: '/failure',
+          children: [{ children: 'FAILURE', name: 'text' }],
+        },
       }
     ],
   },

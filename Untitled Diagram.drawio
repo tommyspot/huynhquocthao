@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T00:34:40.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="ANMnPr3v83kxKRQK5vEZ" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T08:57:49.059Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="5VanQDRibHgWw2J4XdkG" version="18.0.4" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1367" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1754" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cuQhHti88fIW8_ir2L4O-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry y="39" width="590" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="cuQhHti88fIW8_ir2L4O-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;qtx-ui&lt;br&gt;&lt;/font&gt;(UI Components)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="cuQhHti88fIW8_ir2L4O-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;qtx-ui (v1)&lt;br&gt;&lt;/font&gt;(UI Components)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="810" y="39" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cuQhHti88fIW8_ir2L4O-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Container&lt;br&gt;(qtx-app)&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -29,10 +29,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cuQhHti88fIW8_ir2L4O-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="KHxM6-6Ww-3Rp7QaerVd-1" target="cuQhHti88fIW8_ir2L4O-2" edge="1">
+        <mxCell id="cuQhHti88fIW8_ir2L4O-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="KHxM6-6Ww-3Rp7QaerVd-1" target="Z_vLAfdQTVNLqNjaCWKg-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="357" y="395" as="sourcePoint" />
-            <mxPoint x="787" y="220" as="targetPoint" />
+            <mxPoint x="870" y="390" as="targetPoint" />
             <Array as="points">
               <mxPoint x="870" y="534" />
             </Array>
@@ -57,16 +57,16 @@
           <mxGeometry x="590" y="340" width="90" height="21" as="geometry" />
         </mxCell>
         <mxCell id="KHxM6-6Ww-3Rp7QaerVd-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Loan Servicing&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(qtx-servicing)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#3333ff&quot; size=&quot;3&quot;&gt;router.js&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ff8000&quot;&gt;main.js&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ff8000&quot;&gt;main.css&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bac8d3;strokeColor=#23445d;align=center;" parent="1" vertex="1">
-          <mxGeometry x="205" y="469" width="130" height="130" as="geometry" />
+          <mxGeometry x="230" y="469" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="KHxM6-6Ww-3Rp7QaerVd-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;LPM&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(qtx-lpm)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#3333ff&quot; size=&quot;3&quot;&gt;router.js&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ff8000&quot;&gt;main.js&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot; color=&quot;#ff8000&quot;&gt;main.css&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#bac8d3;strokeColor=#23445d;align=center;" parent="1" vertex="1">
-          <mxGeometry x="205" y="300" width="130" height="130" as="geometry" />
+          <mxGeometry x="230" y="300" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="KHxM6-6Ww-3Rp7QaerVd-3" value="&lt;font color=&quot;#000000&quot;&gt;micro-app&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="232.5" y="430" width="75" height="30" as="geometry" />
+          <mxGeometry x="257.5" y="430" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KHxM6-6Ww-3Rp7QaerVd-4" value="&lt;font color=&quot;#000000&quot;&gt;micro-app&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#3333FF;" parent="1" vertex="1">
-          <mxGeometry x="232.5" y="599" width="75" height="30" as="geometry" />
+          <mxGeometry x="257.5" y="599" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KHxM6-6Ww-3Rp7QaerVd-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Shared data&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;Ex: claims, containerId,..&lt;/i&gt;.&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="20" y="48" width="150" height="70" as="geometry" />
@@ -125,6 +125,41 @@
               <mxPoint x="95" y="365" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_vLAfdQTVNLqNjaCWKg-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;qtx-ui (v2)&lt;br&gt;&lt;/font&gt;(UI Components)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z_vLAfdQTVNLqNjaCWKg-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z_vLAfdQTVNLqNjaCWKg-1" target="cuQhHti88fIW8_ir2L4O-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="79" as="sourcePoint" />
+            <mxPoint x="990" y="79" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_vLAfdQTVNLqNjaCWKg-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF8000;entryX=0.88;entryY=0.25;entryDx=0;entryDy=0;exitX=0.231;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" target="Z_vLAfdQTVNLqNjaCWKg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="267.03" y="404.98" as="sourcePoint" />
+            <mxPoint x="160" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="380" />
+              <mxPoint x="192" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_vLAfdQTVNLqNjaCWKg-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontColor=#FF8000;exitX=0.154;exitY=0.777;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Z_vLAfdQTVNLqNjaCWKg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="258.02" y="575.01" as="sourcePoint" />
+            <mxPoint x="160" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="560" />
+              <mxPoint x="158" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z_vLAfdQTVNLqNjaCWKg-8" value="&lt;span style=&quot;&quot;&gt;Must remove CSS file after unmounting a micro-app&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry y="380" width="210" height="101" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

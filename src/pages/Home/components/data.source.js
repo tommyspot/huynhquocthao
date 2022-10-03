@@ -33,13 +33,14 @@ export const Banner20DataSource = {
         },
         content: {
           className: 'banner2-content',
-          children: 'Lead FE Developer at FTVLabs',
+          children: 'FE Team Leader at FTVLabs',
         },
         button: {
           className: 'banner2-button',
-          children: 'Download My CV',
+          children: 'My Resume',
           type: 'primary',
-          onClick: () => window.open(`${window.location.origin}${`${process.env.PUBLIC_URL}/myCV.pdf`}`, '_blank'),
+          // onClick: () => window.open(`${window.location.origin}${`${process.env.PUBLIC_URL}/myCV.pdf`}`, '_blank'),
+          onClick: () => window.open('https://resume.io/r/OzDS5dMLh'),
         },
       },
     ],
@@ -80,7 +81,7 @@ export const Content90DataSource = {
           name: { className: 'block-name', children: 'FTVLabs' },
           post: { className: 'block-post', children: 'Singapore' },
           time: { className: 'block-time', children: 'May 2018 - Present' },
-          title: { className: 'block-title', children: 'Lead FE Developer' },
+          title: { className: 'block-title', children: 'FE Team Leader' },
           content: {
             className: 'block-content',
             children: (
@@ -91,8 +92,9 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Field Service Management.</li>
-                  <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Ant Pro.</i></li>
+                  <li>Field Service Management (SaaS).</li>
+                  <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Antd Pro.</i></li>
+                  <li><i>Micro Frontends.</i></li>
                 </ul>
               </>
             ),

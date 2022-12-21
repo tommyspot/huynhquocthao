@@ -33,7 +33,12 @@ export const Banner20DataSource = {
         },
         content: {
           className: 'banner2-content',
-          children: 'FE Team Leader at FTVLabs',
+          children: (
+            <>
+              <div style={{ color: '#1DA57A' }}><b>FE Leader at Kegmil</b></div>
+              <div style={{ fontSize: '16px' }}>Short-term: Technical Project Manager</div>
+            </>
+          ),
         },
         button: {
           className: 'banner2-button',

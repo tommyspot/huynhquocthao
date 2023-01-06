@@ -99,7 +99,7 @@ export const Content90DataSource = {
                 <ul>
                   <li>Field Service Management (SaaS).</li>
                   <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Antd Pro.</i></li>
-                  <li><i>Micro Frontends.</i></li>
+                  <li><i>Micro Frontends (Module Federation).</i></li>
                 </ul>
               </>
             ),
@@ -159,7 +159,7 @@ export const Content90DataSource = {
             children: triangleSVG,
           },
           name: { className: 'block-name', children: 'Epinion' },
-          post: { className: 'block-post', children: 'Vietnam' },
+          post: { className: 'block-post', children: 'Denmark' },
           time: { className: 'block-time', children: 'Jun 2015 - Apr 2017' },
           title: { className: 'block-title', children: 'Senior FE Developer' },
           content: {
@@ -218,7 +218,7 @@ export const Content90DataSource = {
       {
         name: 'block4',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.25,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },

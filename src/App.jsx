@@ -10,7 +10,7 @@ import Footer from '~/components/Footer';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import Failure from './pages/Failure';
+// import Failure from './pages/Failure';
 import './global.less';
 
 let isMobileScreen;
@@ -54,9 +54,9 @@ function App() {
             <Route path="/contact" exact>
               <Contact />
             </Route>
-            <Route path="/failure" exact>
+            {/* <Route path="/failure" exact>
               <Failure />
-            </Route>
+            </Route> */}
           </Switch>
           <Footer
             id="Footer2_0"

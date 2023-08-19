@@ -11,6 +11,7 @@ import KegmilLogo from '~/assets/images/logo/Kegmil.png';
 import HotscheduleLogo from '~/assets/images/logo/Hotschedule.png';
 import InciteLogo from '~/assets/images/logo/incite.jpeg';
 import EasycruiteLogo from '~/assets/images/logo/Easycruite.png';
+import QuantalytixLogo from '~/assets/images/logo/Quantalytix.png';
 
 export const Banner20DataSource = {
   wrapper: { className: 'banner2' },
@@ -35,7 +36,7 @@ export const Banner20DataSource = {
           className: 'banner2-content',
           children: (
             <>
-              <div style={{ color: '#1DA57A' }}><b>FE Leader at Kegmil</b></div>
+              <div style={{ color: '#1DA57A' }}><b>FE Tech Lead at Quantalytix</b></div>
               <div style={{ fontSize: '16px' }}>Short-term: Technical Project Manager</div>
             </>
           ),
@@ -69,6 +70,44 @@ export const Content90DataSource = {
     className: 'timeline',
     children: [
       {
+        name: 'block0-qtx',
+        className: 'block-wrapper',
+        playScale: 0.3,
+        children: {
+          imgWrapper: { className: 'image-wrapper' },
+          textWrapper: { className: 'text-wrapper' },
+          img: {
+            className: 'block-img',
+            children: QuantalytixLogo,
+          },
+          icon: {
+            className: 'block-icon',
+            children: circleSVG,
+          },
+          name: { className: 'block-name', children: 'Quantalytix' },
+          post: { className: 'block-post', children: 'USA' },
+          time: { className: 'block-time', children: 'Jul 2023 - Present' },
+          title: { className: 'block-title', children: 'FE Tech Lead' },
+          content: {
+            className: 'block-content',
+            children: (
+              <>
+                <div>
+                  <a href="https://apc.quantalytix.com" target="_blank" rel="noreferrer">
+                    <img src={QuantalytixLogo} alt="qtx" style={{ height: 32 }} />
+                  </a>
+                </div>
+                <ul>
+                  <li>Loan Portfolio Management (SaaS).</li>
+                  <li><i>ReactJS (latest version), .Net, Syncfusion.</i></li>
+                  <li><i>Micro Frontends (Module Federation).</i></li>
+                </ul>
+              </>
+            ),
+          },
+        },
+      },
+      {
         name: 'block0',
         className: 'block-wrapper',
         playScale: 0.3,
@@ -81,12 +120,12 @@ export const Content90DataSource = {
           },
           icon: {
             className: 'block-icon',
-            children: circleSVG,
+            children: triangleSVG,
           },
           name: { className: 'block-name', children: 'FTVLabs' },
           post: { className: 'block-post', children: 'Singapore' },
-          time: { className: 'block-time', children: 'May 2018 - Present' },
-          title: { className: 'block-title', children: 'FE Team Leader' },
+          time: { className: 'block-time', children: 'May 2018 - Jun 2023' },
+          title: { className: 'block-title', children: 'FE Tech Lead' },
           content: {
             className: 'block-content',
             children: (
@@ -99,7 +138,6 @@ export const Content90DataSource = {
                 <ul>
                   <li>Field Service Management (SaaS).</li>
                   <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Antd Pro.</i></li>
-                  <li><i>Micro Frontends (Module Federation).</i></li>
                 </ul>
               </>
             ),
@@ -135,7 +173,7 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Scheduling, Labor Management.</li>
+                  <li>Scheduling, Labor Management (SaaS).</li>
                   <li><i>ReactJS (15), Redux, Redux Observable, Echo UI.</i></li>
                 </ul>
               </>
@@ -218,7 +256,7 @@ export const Content90DataSource = {
       {
         name: 'block4',
         className: 'block-wrapper',
-        playScale: 0.25,
+        playScale: 0.3,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },

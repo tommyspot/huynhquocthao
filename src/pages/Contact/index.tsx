@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import Section from './components/Section';
-import avatar from '~/assets/images/avatar.png';
+import avatar from '~/assets/images/avatar.jpg';
 import addressIcon from './images/address.png';
 import phoneIcon from './images/phone.png';
 import mailIcon from './images/mail.png';

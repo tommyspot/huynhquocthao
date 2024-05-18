@@ -98,9 +98,11 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Loan Portfolio Management (SaaS).</li>
-                  <li><i>ReactJS (latest version), .Net, Syncfusion.</i></li>
-                  <li><i>Micro Frontends (Module Federation).</i></li>
+                  <li><b>Banking - Loan Portfolio Management (SaaS).</b></li>
+                  <li>Micro Frontends (Module Federation).</li>
+                  <li>ReactJS (v18), .Net Core.</li>
+                  <li>Internal UI library (Syncfusion, Storybook).</li>
+                  <li>PWA, Javascript (Web Worker).</li>
                 </ul>
               </>
             ),
@@ -136,8 +138,9 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Field Service Management (SaaS).</li>
-                  <li><i>ReactJS (latest version), Redux, Redux Saga, Ant Design, Antd Pro.</i></li>
+                  <li><b>Field Service Management (SaaS).</b></li>
+                  <li>ReactJS (v17), Redux, Redux Saga, Ant Design, Antd Pro.</li>
+                  <li>Google Analytics, Sentry.</li>
                 </ul>
               </>
             ),
@@ -173,8 +176,8 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Scheduling, Labor Management (SaaS).</li>
-                  <li><i>ReactJS (15), Redux, Redux Observable, Echo UI.</i></li>
+                  <li><b>Scheduling, Labor Management (SaaS).</b></li>
+                  <li>ReactJS (v15), Redux, Redux Observable, Echo UI.</li>
                 </ul>
               </>
             ),
@@ -210,8 +213,8 @@ export const Content90DataSource = {
                   </a>
                 </div>
                 <ul>
-                  <li>Epinion’s Online Insights Platform.</li>
-                  <li><i>AngularJS, Typescript, TDD, Bootstrap 3, ASP.Net, SQL Server.</i></li>
+                  <li><b>Epinion’s Online Insights Platform.</b></li>
+                  <li>AngularJS, Typescript, TDD, Bootstrap 3, ASP.Net, MS SQL Server.</li>
                 </ul>
               </>
             ),
@@ -245,8 +248,8 @@ export const Content90DataSource = {
                   <img src={EasycruiteLogo} alt="easycruite" style={{ height: 32 }} />
                 </div>
                 <ul>
-                  <li>CV Management.</li>
-                  <li><i>Perl, Mason, jQuery.</i></li>
+                  <li><b>CV Management.</b></li>
+                  <li>Perl, Mason, jQuery.</li>
                 </ul>
               </>
             ),
@@ -278,8 +281,8 @@ export const Content90DataSource = {
               <>
                 <div style={{ marginBottom: 16 }}><b>iPos Malaysia</b></div>
                 <ul>
-                  <li>Insurance Management.</li>
-                  <li><i>AngularJS, Java, Bootstrap.</i></li>
+                  <li><b>Insurance Management.</b></li>
+                  <li>AngularJS, Java, Bootstrap.</li>
                 </ul>
               </>
             ),

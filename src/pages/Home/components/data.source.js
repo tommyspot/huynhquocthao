@@ -72,7 +72,7 @@ export const Content90DataSource = {
       {
         name: 'block0-qtx',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -100,9 +100,10 @@ export const Content90DataSource = {
                 <ul>
                   <li><b>Banking - Loan Portfolio Management (SaaS).</b></li>
                   <li>Micro Frontends (Module Federation).</li>
-                  <li>ReactJS (v18), .Net Core.</li>
-                  <li>Internal UI library (Syncfusion, Storybook).</li>
-                  <li>PWA, Javascript (Web Worker).</li>
+                  <li>ReactJS (v18), Blazor WebAssembly (ELSA Workflow).</li>
+                  <li>React UI library (Storybook, Syncfusion, AG Grid).</li>
+                  <li>PWA, SignalR, Jotai, Javascript (Web Worker).</li>
+                  <li>Hotjar, Application Insights.</li>
                 </ul>
               </>
             ),
@@ -112,7 +113,7 @@ export const Content90DataSource = {
       {
         name: 'block0',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -139,7 +140,7 @@ export const Content90DataSource = {
                 </div>
                 <ul>
                   <li><b>Field Service Management (SaaS).</b></li>
-                  <li>ReactJS (v17), Redux, Redux Saga, Ant Design, Antd Pro.</li>
+                  <li>ReactJS (v17), Redux, Ant Design, Antd Pro, Umi.</li>
                   <li>Google Analytics, Sentry.</li>
                 </ul>
               </>
@@ -150,7 +151,7 @@ export const Content90DataSource = {
       {
         name: 'block1',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -187,7 +188,7 @@ export const Content90DataSource = {
       {
         name: 'block2',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -224,7 +225,7 @@ export const Content90DataSource = {
       {
         name: 'block3',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },
@@ -259,7 +260,7 @@ export const Content90DataSource = {
       {
         name: 'block4',
         className: 'block-wrapper',
-        playScale: 0.3,
+        playScale: 0.2,
         children: {
           imgWrapper: { className: 'image-wrapper' },
           textWrapper: { className: 'text-wrapper' },

@@ -100,7 +100,8 @@ export const Content90DataSource = {
                 <ul>
                   <li><b>Banking - Loan Portfolio Management (SaaS).</b></li>
                   <li>Micro Frontends (Module Federation).</li>
-                  <li>ReactJS (v18), Blazor WebAssembly (ELSA Workflow).</li>
+                  <li>ReactJS (v18), Blazor WebAssembly (ELSA Workflow Studio).</li>
+                  <li>Automation Frameworks: Playwright, Chromatic (UI Testing).</li>
                   <li>React UI library (Storybook, Syncfusion, AG Grid).</li>
                   <li>PWA, SignalR, Jotai, Javascript (Web Worker).</li>
                   <li>Hotjar, Application Insights.</li>

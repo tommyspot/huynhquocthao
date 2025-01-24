@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { enquireScreen } from 'enquire-js';
 import {
   BrowserRouter as Router,
@@ -10,7 +10,6 @@ import Footer from '~/components/Footer';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-// import Failure from './pages/Failure';
 import './global.less';
 
 let isMobileScreen;
